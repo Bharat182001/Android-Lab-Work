@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="286dp"
+        android:layout_height="301dp"
+        android:layout_centerInParent="true"
+        android:text="ADD QUIZ!"
+        android:textAlignment="center"
+        android:textSize="50sp" />
+
+    <ImageButton
+        android:layout_width="171dp"
+        android:layout_height="139dp"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/baseline_play_arrow_black_24dp"
+        android:layout_marginRight="235px"
+        />
+
+    <ImageButton
+        android:layout_width="171dp"
+        android:layout_height="139dp"
+        android:src="@drawable/baseline_share_black_24dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="235dp"
+        />
+</RelativeLayout>
